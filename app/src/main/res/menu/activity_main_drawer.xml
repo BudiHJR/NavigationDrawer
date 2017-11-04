@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_layout"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_second_layout"
+            android:icon="@drawable/ic_new_releases_black_24dp"
+            android:title="Terbaru" />
+        <item
+            android:id="@+id/nav_third_layout"
+            android:icon="@drawable/ic_location_searching_black_24dp"
+            android:title="Terdekat" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_quit"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Keluar" />
+        </menu>
+    </item>
+
+</menu>
